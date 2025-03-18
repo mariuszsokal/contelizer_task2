@@ -1,0 +1,8 @@
+services:
+  contelizer_task2_php:
+    container_name: contelizer_task2_php
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
