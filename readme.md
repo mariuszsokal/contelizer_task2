@@ -15,5 +15,5 @@ docker compose up -d --build
 
 ## Run tests
 ```
-docker exec -it contelizer_task1_php composer test
+docker exec -it contelizer_task2_php composer test
 ```
